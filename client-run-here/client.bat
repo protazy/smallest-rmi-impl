@@ -1,0 +1,1 @@
+java -Djava.security.policy=client.policy -Djava.rmi.server.useCodebaseOnly=false -Djava.rmi.server.codebase=http://192.168.1.5:8000/ -cp ..\service\target\service-1.0-SNAPSHOT.jar;..\client\target\client-1.0-SNAPSHOT.jar pl.protazy.rmi.client.Client

@@ -1,0 +1,1 @@
+java -Djava.security.policy=server.policy -Djava.rmi.server.useCodebaseOnly=false -Djava.rmi.server.codebase=http://192.168.1.5:9000/ -Dsun.rmi.loader.logLevel=VERBOSE -cp ..\service\target\service-1.0-SNAPSHOT.jar;..\server\target\server-1.0-SNAPSHOT.jar pl.protazy.rmi.server.Server
